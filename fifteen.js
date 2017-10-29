@@ -1,10 +1,23 @@
 "use strict";
 
-//var num_tiles= [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16];
+window.onload = function(){
+	var puzzlearea= document.getElementById("puzzlearea");
+	var tiles= puzzlearea.children;
+	var moves=0;
+	var tileArray=[];
 
-var puzzlearea= $(#puzzlearea);
-var tiles= puzzlearea.children;
+	//adds puzzlepiece css class to all tiles
+	for(var i=0; i<tiles.length;i++){
+		tiles[i].classList.add("puzzlepiece");
+	}
+	//adds tiles to an array
+	for(var i=0; i<tiles.length;i++){
+		tileArray.push(tiles);
+	}
 
-for(var i=0; i<tile.length;i++){
-	addClass(puzzlepieces);
-}
+
+	function setTiles(){
+		
+	}
+};
+
