@@ -5,6 +5,8 @@ window.onload = function(){
 	var tiles= puzzlearea.children;
 	var moves=0;
 	var tileArray=[];
+	var row= document.createElement("div");
+	
 
 	//adds puzzlepiece css class to all tiles
 	for(var i=0; i<tiles.length;i++){
@@ -15,9 +17,6 @@ window.onload = function(){
 		tileArray.push(tiles);
 	}
 
-
-	function setTiles(){
-		
-	}
-};
+	
+};//end of window.onload
 
