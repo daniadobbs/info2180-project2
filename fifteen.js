@@ -4,10 +4,10 @@ window.onload = function(){
 
 	var puzzlearea= document.getElementById("puzzlearea");
 	var tiles= puzzlearea.children;
-	var shuf_button= document.getElementById("shufflebutton");
+	//var shuf_button= document.getElementById("shufflebutton");
 
 	//shuffles tiles by clicking shuffle button
-	shuf_button.addEventListener("click",shuffle(tiles));
+	//shuf_button.addEventListener("click",shuffle(tiles));
 	
 
 	//adds puzzlepiece css class to all tiles
@@ -29,16 +29,13 @@ window.onload = function(){
 	tile2.style.top="0px";
 	tile2.style.left="100px";
 	tile2.style.backgroundPosition="-100px 0px";
-
 	
-
 	//tile 3
 	var tile3= tiles[2];
 	tile3.style.top="0px";
 	tile3.style.left="200px";
 	tile3.style.backgroundPosition="-200px 0px";
-
-
+	
 	//tile 4
 	var tile4= tiles[3];
 	tile4.style.top="0px";
@@ -115,13 +112,13 @@ window.onload = function(){
 	tile15.style.backgroundPosition="-200px 100px";
 
 
-	function shuffle(x){
+	/*function shuffle(x){
 		
 		for (var i=0;i<x.length;i++){
 			var ran= Math.floor(Math.random() * this.length);
 			var result= x[ran];
 		}
-	}
+	} */
 	
 
 
